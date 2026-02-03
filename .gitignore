@@ -1,0 +1,17 @@
+ # Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Python bytecode / compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Optional but very useful extras for Python projects:
+*.npz               # large numpy save files from calibration
+calib_data.npz      # your calibration results
+calib_images/       # folder with photos 
+.DS_Store           # macOS junk 
